@@ -1,0 +1,47 @@
+section.hero.is-fullheight.is-dark
+  .hero-head
+    .container
+      nav.nav
+        .container
+          .nav-left
+            a.nav-item[href="/"]
+            h3.title.is-3.title-page LINKNHANH.INFO
+          span.nav-toggle
+            span
+            span
+            span
+          .nav-right.nav-menu
+            a.nav-item
+              |  About
+            a.nav-item
+              |  Tour
+            a.nav-item
+              |  FAQ
+            a.nav-item
+              |  Contact
+            span.nav-item
+              a.button.is-default
+                |  Get Early Access
+  .hero-body
+    .container.has-text-centered
+      .columns.is-vcentered
+        .column.is-5
+          figure.image.is-4by3
+            = image_tag('landing-photo.jpg')
+        .column.is-6.is-offset-1
+          h1.title.is-2
+            |  Introducing LINKNHANH.INFO
+          h2.subtitle.is-4
+            |  It's time to say hello.
+          br
+          p.control.has-addons.has-text-centered
+            input.input.is-expanded.is-large[type="text" placeholder="Join the beta waitlist, you@example.org"]
+            a.button.is-large.is-danger.is-outlined
+              |  Sign Up
+  .hero-foot
+    .container
+      .tabs.is-centered
+        ul
+          li
+            a
+              | Copyright 2017 Linknhanh
